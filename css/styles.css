@@ -1,0 +1,242 @@
+body {
+  background: white;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wrapper {
+  background: white;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* main content styles */
+.main-content {
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* side bar styles */
+.side-bar {
+  background: #f5f5f5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
+}
+.sidebar-content {
+  padding-left: 40px;
+  padding-top: 67px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.contacts-titel {
+  color: #161d2a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.contacts-link {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  /* text-decoration: none; */
+  line-height: 24px;
+}
+.contacts-item {
+  color: #161d2a;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+.contacts-box {
+  margin-bottom: 40px;
+}
+.soc-link {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+/* skills box styles */
+.skills-box {
+  margin-bottom: 40px;
+}
+.tech-skill-titel {
+  color: #161d2a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.soft-skill-titel {
+  color: #161d2a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.skills-list {
+  padding-left: 16px;
+}
+.skills-list-item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* main content styles */
+.my-profession {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-name {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.my-descr {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.my-info {
+  margin-bottom: 40px;
+}
+/* my project styles */
+.projects-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-projects-item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.my-projects-list {
+  padding-left: 16px;
+}
+.my-projects-item-link {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  /* text-decoration: none; */
+  line-height: 24px;
+  margin-right: 8px;
+}
+.my-project-item-tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my-projects-box {
+  margin-bottom: 40px;
+}
+
+/* work experience styles*/
+.experience-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.work-experience-company {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.company {
+  color: #161d2a;
+}
+.period-of-working {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+.line {
+  color: black;
+}
+
+.work-experience-duties-list {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.work-experience-conteiner {
+  margin-bottom: 12px;
+}
+.achievement-title {
+  margin: 0;
+}
+/* education styles */
+.education-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-uni-name {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.education-speciality {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-education-box {
+  margin-bottom: 12px;
+}
